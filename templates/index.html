@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediksi Gangguan Mental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        label {
+            font-size: 16px;
+            margin-top: 10px;
+            display: block;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Prediksi Gangguan Mental</h1>
+    <form method="POST">
+        <!-- Usia -->
+        <div class="question">
+            <label for="age">Masukkan usia Anda:</label>
+            <input type="number" id="age" name="age" required min="0" max="150" placeholder="Masukkan usia Anda" /><br><br>
+        </div>
+
+        <!-- Pertanyaan -->
+        <div class="question">
+            <label>Apakah Anda merasa cemas?</label>
+            <input type="radio" name="feeling_nervous" value="Ya"> Ya
+            <input type="radio" name="feeling_nervous" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda mengalami panik?</label>
+            <input type="radio" name="panic" value="Ya"> Ya
+            <input type="radio" name="panic" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda bernapas cepat?</label>
+            <input type="radio" name="breathing_rapidly" value="Ya"> Ya
+            <input type="radio" name="breathing_rapidly" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda berkeringat?</label>
+            <input type="radio" name="sweating" value="Ya"> Ya
+            <input type="radio" name="sweating" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda mengalami kesulitan berkonsentrasi?</label>
+            <input type="radio" name="trouble_in_concentration" value="Ya"> Ya
+            <input type="radio" name="trouble_in_concentration" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda mengalami kesulitan tidur?</label>
+            <input type="radio" name="having_trouble_in_sleeping" value="Ya"> Ya
+            <input type="radio" name="having_trouble_in_sleeping" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda mengalami kesulitan dalam bekerja?</label>
+            <input type="radio" name="having_trouble_with_work" value="Ya"> Ya
+            <input type="radio" name="having_trouble_with_work" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda merasa putus asa?</label>
+            <input type="radio" name="hopelessness" value="Ya"> Ya
+            <input type="radio" name="hopelessness" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda sering merasa marah?</label>
+            <input type="radio" name="anger" value="Ya"> Ya
+            <input type="radio" name="anger" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda mudah bereaksi berlebihan?</label>
+            <input type="radio" name="over_react" value="Ya"> Ya
+            <input type="radio" name="over_react" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah ada perubahan pola makan?</label>
+            <input type="radio" name="change_in_eating" value="Ya"> Ya
+            <input type="radio" name="change_in_eating" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda pernah memiliki pikiran untuk bunuh diri?</label>
+            <input type="radio" name="suicidal_thought" value="Ya"> Ya
+            <input type="radio" name="suicidal_thought" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda sering merasa lelah?</label>
+            <input type="radio" name="feeling_tired" value="Ya"> Ya
+            <input type="radio" name="feeling_tired" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda memiliki teman dekat?</label>
+            <input type="radio" name="close_friend" value="Ya"> Ya
+            <input type="radio" name="close_friend" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda kecanduan media sosial?</label>
+            <input type="radio" name="social_media_addiction" value="Ya"> Ya
+            <input type="radio" name="social_media_addiction" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda mengalami kenaikan berat badan?</label>
+            <input type="radio" name="weight_gain" value="Ya"> Ya
+            <input type="radio" name="weight_gain" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda seorang introvert?</label>
+            <input type="radio" name="introvert" value="Ya"> Ya
+            <input type="radio" name="introvert" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah sering muncul ingatan yang membuat stres?</label>
+            <input type="radio" name="popping_up_stressful_memory" value="Ya"> Ya
+            <input type="radio" name="popping_up_stressful_memory" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda sering mengalami mimpi buruk?</label>
+            <input type="radio" name="having_nightmares" value="Ya"> Ya
+            <input type="radio" name="having_nightmares" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda menghindari orang atau aktivitas tertentu?</label>
+            <input type="radio" name="avoids_people_or_activities" value="Ya"> Ya
+            <input type="radio" name="avoids_people_or_activities" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda sering merasa negatif?</label>
+            <input type="radio" name="feeling_negative" value="Ya"> Ya
+            <input type="radio" name="feeling_negative" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda sering menyalahkan diri sendiri?</label>
+            <input type="radio" name="blaming_yourself" value="Ya"> Ya
+            <input type="radio" name="blaming_yourself" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda mengalami halusinasi?</label>
+            <input type="radio" name="hallucinations" value="Ya"> Ya
+            <input type="radio" name="hallucinations" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda memiliki perilaku yang repetitif?</label>
+            <input type="radio" name="repetitive_behaviour" value="Ya"> Ya
+            <input type="radio" name="repetitive_behaviour" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah gejala Anda muncul secara musiman?</label>
+            <input type="radio" name="seasonally" value="Ya"> Ya
+            <input type="radio" name="seasonally" value="Tidak" checked> Tidak
+        </div>
+
+        <div class="question">
+            <label>Apakah Anda merasa lebih berenergi dari biasanya?</label>
+            <input type="radio" name="increased_energy" value="Ya"> Ya
+            <input type="radio" name="increased_energy" value="Tidak" checked> Tidak
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Display Result -->
+    <div class="result">
+        <h2>{{ result }}</h2>
+    </div>
+
+</body>
+</html>
