@@ -1,10 +1,10 @@
-Flask Application with TensorFlow and NumPy
-This repository contains a Flask application that leverages TensorFlow and NumPy for various functionalities. Follow the instructions below to set up and run the project.
+# Flask Application
 
-Prerequisites
-Ensure you have the following installed:
+This repository contains a Flask application that utilizes **NumPy** and **TensorFlow** for various tasks. Follow the instructions below to set up and run the application.
 
-Python 3.8+
-pip (Python package manager)
-Installation
-Clone the repository:
+---
+
+## Requirements
+Make sure you have **Python 3.8+** installed. You can check your Python version with:
+```bash
+python --version
