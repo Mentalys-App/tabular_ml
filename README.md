@@ -14,8 +14,8 @@ python --version
 Clone this repository:
 
 ```bash
-git clone <repository_url>
-cd <repository_folder>
+git clone https://github.com/Mentalys-App/tabular_ml.git
+cd Mentalys-App/tabular_ml
 ``` 
 ## Install dependencies
 ``` bash
